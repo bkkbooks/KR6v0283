@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6v0283/v1
+canonical_location: https://kanripo.org/bkk/KR6v0283/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 王氏道俗百人造像記
+  identifiers:
+    alt_id:
+    - I01n0079
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/I/I01/I01n0079.xml
+    old_id: I01n0079
+  edition:
+    short: bkk
+editions:
+- short: 佛拓
+  label: 佛拓
+  source_xml_id: wit.orig
+- short: I
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0283_000.yaml, hash: 'sha256:75552f9666b077eb759616cfd1b2a8bcdfc942ef954f6e165df160a6c11a23e3'}
+  - {seq: 1, filename: KR6v0283_001.yaml, hash: 'sha256:71d086757dd2ac5a609a9410642a1e8643f4c88698666f14736e60d9523477fc'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6v0283_001.markers.yaml, hash: 'sha256:154d1bb7e586764ed4336608b9261b047d18a9dbf1bd1fe959148aeb3c542096'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0283_I_001-juan-start
+    span:
+    - body
+    - 0
+    - 375
+  label: 王氏道俗百人造像記
+  type: juan
+  level: 1
+hash: sha256:453e7bb17e7ed4edd16fa6c2ea07a738a7d978808074b61bc64391a96eb4fa2f
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

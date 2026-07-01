@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6v0283/i/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 王氏道俗百人造像記
+  edition:
+    short: i
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/I/I01/I01n0079.xml
+    old_id: I01n0079
+hash: sha256:75552f9666b077eb759616cfd1b2a8bcdfc942ef954f6e165df160a6c11a23e3

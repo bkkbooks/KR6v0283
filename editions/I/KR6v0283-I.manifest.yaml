@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6v0283/I/v1
+canonical_location: https://kanripo.org/bkk/KR6v0283/I/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 王氏道俗百人造像記
+  identifiers:
+    krp: KR6v0283
+    cbeta: I01n0079
+    cbeta_old_id: I01n0079
+    authorityid: CA0008214
+    json_key: I0079
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/I/I01/I01n0079.xml
+    old_id: I01n0079
+  edition:
+    short: I
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0283_000-I.yaml, hash: 'sha256:75552f9666b077eb759616cfd1b2a8bcdfc942ef954f6e165df160a6c11a23e3'}
+  - {seq: 1, filename: KR6v0283_001-I.yaml, hash: 'sha256:f88167c37beeaf3e765e526893e740a52c02997041505e9d6627f633f095c277'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6v0283_000-I.markers.yaml, hash: 'sha256:27dba42ee0ec46d5974523ba62d45bc01e58b5b89ce2dbf3cef25b37f3bc14a9'}
+  - {seq: 1, role: markers, filename: assets/KR6v0283_001-I.markers.yaml, hash: 'sha256:5516c246bce3b452d457f42366643fc0b7ab479e65e9af1ba890608e778c51ee'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0283_I_001-juan-start
+    span:
+    - body
+    - 0
+    - 375
+  label: 王氏道俗百人造像記
+  type: juan
+  level: 1
+hash: sha256:7a4c4df5302c1d5418f5b58d2e82551267effd0e99a196273a6a39a8206ac6d7
