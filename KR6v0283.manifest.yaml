@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6v0283_000.yaml, hash: 'sha256:75552f9666b077eb759616cfd1b2a8bcdfc942ef954f6e165df160a6c11a23e3'}
-  - {seq: 1, filename: KR6v0283_001.yaml, hash: 'sha256:71d086757dd2ac5a609a9410642a1e8643f4c88698666f14736e60d9523477fc'}
+  - {seq: 1, filename: KR6v0283_001.yaml, hash: 'sha256:f88167c37beeaf3e765e526893e740a52c02997041505e9d6627f633f095c277'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6v0283_001.markers.yaml, hash: 'sha256:154d1bb7e586764ed4336608b9261b047d18a9dbf1bd1fe959148aeb3c542096'}
+  - {seq: 0, role: markers, filename: assets/KR6v0283_000.markers.yaml, hash: 'sha256:d7ec16b87f620d810bc5dded3f4d26cd24129f300fb3605db50ed809ab6d9507'}
+  - {seq: 1, role: markers, filename: assets/KR6v0283_001.markers.yaml, hash: 'sha256:d56e7cd604725100089b718614413a4bbf7249b9e0f1384ae3e15a38ebab707f'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,7 +37,4 @@ table_of_contents:
   label: 王氏道俗百人造像記
   type: juan
   level: 1
-hash: sha256:453e7bb17e7ed4edd16fa6c2ea07a738a7d978808074b61bc64391a96eb4fa2f
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:09c2eec86da246200e813efb12bda5e17edf9f57ab723358679ce9d266de3cc0
